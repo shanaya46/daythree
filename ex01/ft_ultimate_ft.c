@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void ft_ft(int **********nbr){
+void ft_ultimate_ft(int **********nbr){
     **********nbr = 42;
 }
 
@@ -16,6 +16,6 @@ int main() {
     int ********nbr8 = &nbr7;
     int *********nbr9 = &nbr8;
 
-    ft_ft(&nbr9);
+    ft_ultimate_ft(&nbr9);
     printf("%d\n", nbr);
 }

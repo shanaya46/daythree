@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void ft_ft(int a, int b, int *div, int *mod){
+void ft_div_mod(int a, int b, int *div, int *mod){
     *div = a/b;
     *mod = a % b;
 }
@@ -10,7 +10,7 @@ int main() {
     int b = 5;
     int div;
     int mod;
-    ft_ft(a, b, &div, &mod);
+    ft_div_mod(a, b, &div, &mod);
     printf("Division: %d\n", div);
     printf("Remainder: %d\n", mod);
 }
